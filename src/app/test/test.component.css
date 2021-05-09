@@ -1,0 +1,60 @@
+* {box-sizing: border-box;}
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  overflow: hidden;
+  position: relative;
+  text-align: center  ;
+  top: 5px;
+  height: 15%;
+}
+
+
+.container a{
+  float: left;
+  color: maroon;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.search-hero{
+  padding-top: 4px;
+  overflow: hidden;
+}
+#logo{
+  max-width: 100%;
+  position: relative;
+  height: auto;
+  float: left;
+}
+#userName{
+   position: relative;
+    float: right;
+    color: maroon;
+    font-weight: bold;
+    padding: 0 10px 2px 0;
+}
+input {
+  
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  
+  padding: 10px 5px 10px 20px;
+  text-indent: 20px;
+  
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 2s;
+  transition: all 0.2s;
+  width: 30%;
+}
