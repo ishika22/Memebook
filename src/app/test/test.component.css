@@ -6,9 +6,11 @@ body {
 .container{
   overflow: hidden;
   position: relative;
-  text-align: center  ;
+  text-align: center;
   top: 5px;
   height: 15%;
+  /* display:flex; */
+  align-items: center;
 }
 
 
@@ -57,4 +59,7 @@ input {
   -moz-transition: all 2s;
   transition: all 0.2s;
   width: 30%;
+}
+.menu_list{
+  float: right;
 }
