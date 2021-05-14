@@ -1,0 +1,33 @@
+
+<div class="hero">
+    <div class="form-box">
+        <div class="button-box">
+            <div #id3 id="btn"></div>
+           <link rel="stylesheet" type="text/css" href="login.component.css" media="screen"/>
+            <script>
+              var a=  document.getElementById("login")
+            </script>
+            <button type="button" class="toggle-btn" (click)="login()">Log In</button>
+            <button type="button" class="toggle-btn" (click)="register()">Register</button>
+        </div>
+        <div class="social-icons">
+         <img src="../../assets/images/download.png">
+         <img src="../../assets/images/fb.png">
+         <img src="../../assets/images/twitter.png">
+     </div>
+        <form #id1 class="input-group" id ="login">
+             <input type="text" class="input-field" placeholder="User Id" required>
+             <input type="text" class="input-field" placeholder="Enter Password" required>
+             <input type="checkbox" class="check-box" ><span>Remember Password</span>
+             <button type="submit" class="submit-button" (click)="loginSubmit()">Log In</button>
+        </form>
+        <form #id2 class="input-group" id ="register">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="email" class="input-field" placeholder="Email Id" required>
+            <input type="checkbox" class="check-box" ><span>I agree to the terms & conditions</span>
+            <button type="submit" class="submit-button">Register</button>
+    </form>
+    </div>
+ </div>
+        
